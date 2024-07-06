@@ -1,3 +1,3 @@
 export default function Videos() {
-  return <div>Videos Page</div>;
+  return <div className='text-2xl'>Videos Page</div>;
 }
