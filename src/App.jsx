@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Header from "@/components/header/Header.jsx";
+import SearchHeader from "@/components/header/SearchHeader.jsx";
 
 function App() {
   return (
     <>
-      <Header />
+      <SearchHeader />
       <Outlet />
     </>
   );
