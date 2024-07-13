@@ -7,6 +7,32 @@ export default class Youtube {
     return keyword ? this.#searchByKeyword(keyword) : this.#mostPopular();
   }
 
+  async channelImageURL(id) {
+    const result = await this.apiClient.channels({
+      params: { part: "snippet", id },
+    });
+    return result.data.items[0].snippet.thumbnails.default.url;
+  }
+
+  /**
+   * @todo - relatedVideo 수정해야함
+   */
+  async relatedVideos(id) {
+    const { data } = await this.apiClient.search({
+      params: {
+        part: "snippet",
+        maxResults: 25,
+        type: "video",
+        channelId: id,
+      },
+    });
+    const formattedData = data.items.map((item) => ({
+      ...item,
+      id: item.id.videoId,
+    }));
+    return formattedData;
+  }
+
   async #searchByKeyword(keyword) {
     const params = {
       params: {

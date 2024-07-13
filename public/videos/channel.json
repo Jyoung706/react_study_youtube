@@ -1,6 +1,6 @@
 {
   "kind": "youtube#channelListResponse",
-  "etag": "5QNQ8YgmSP04J8wQBTC8b0mjIIY",
+  "etag": "2mpzhZnhTuVgvMMwCnsVdNiCn0Q",
   "pageInfo": {
     "totalResults": 1,
     "resultsPerPage": 5
@@ -8,35 +8,35 @@
   "items": [
     {
       "kind": "youtube#channel",
-      "etag": "OEDDiJ6uKdnch3dArr2fpng9-rs",
-      "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+      "etag": "bZVkbFpbL81cto86zNZcMclU6qI",
+      "id": "UC3IZKseVpdzPSBaWxBxundA",
       "snippet": {
-        "title": "Google for Developers",
-        "description": "Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.\n\nExplore more at developers.google.com\n\n",
-        "customUrl": "@googledevelopers",
-        "publishedAt": "2007-08-23T00:34:43Z",
+        "title": "HYBE LABELS",
+        "description": "Welcome to the official YouTube channel of HYBE, the content hub for BIGHIT MUSIC, BELIFT LAB, SOURCE MUSIC, PLEDIS Entertainment, KOZ ENTERTAINMENT, ADOR and more.",
+        "customUrl": "@hybelabels",
+        "publishedAt": "2008-06-04T08:23:22Z",
         "thumbnails": {
           "default": {
-            "url": "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s88-c-k-c0x00ffffff-no-rj",
+            "url": "https://yt3.ggpht.com/ytc/AIdro_moizdSO2edQjTEiMj4OADBIy4SpYyZEGLA-KL538pq8UA=s88-c-k-c0x00ffffff-no-rj",
             "width": 88,
             "height": 88
           },
           "medium": {
-            "url": "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s240-c-k-c0x00ffffff-no-rj",
+            "url": "https://yt3.ggpht.com/ytc/AIdro_moizdSO2edQjTEiMj4OADBIy4SpYyZEGLA-KL538pq8UA=s240-c-k-c0x00ffffff-no-rj",
             "width": 240,
             "height": 240
           },
           "high": {
-            "url": "https://yt3.ggpht.com/PrZwRLLSaiXr5t-GRUhUFch2Qlol1G_voyuo-jJ4y-mqcVza7o7j_24yGRiydUP7UsQiKwo7=s800-c-k-c0x00ffffff-no-rj",
+            "url": "https://yt3.ggpht.com/ytc/AIdro_moizdSO2edQjTEiMj4OADBIy4SpYyZEGLA-KL538pq8UA=s800-c-k-c0x00ffffff-no-rj",
             "width": 800,
             "height": 800
           }
         },
         "localized": {
-          "title": "Google for Developers",
-          "description": "Subscribe to join a community of creative developers and learn the latest in Google technology — from AI and cloud, to mobile and web.\n\nExplore more at developers.google.com\n\n"
+          "title": "HYBE LABELS",
+          "description": "Welcome to the official YouTube channel of HYBE, the content hub for BIGHIT MUSIC, BELIFT LAB, SOURCE MUSIC, PLEDIS Entertainment, KOZ ENTERTAINMENT, ADOR and more."
         },
-        "country": "US"
+        "country": "KR"
       }
     }
   ]
