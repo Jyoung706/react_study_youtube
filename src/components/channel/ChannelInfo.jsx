@@ -7,6 +7,7 @@ export default function ChannelInfo({ id, name }) {
     queryKey: ["channel", id],
     queryFn: () => youtube.channelImageURL(id),
   });
+
   return (
     <div>
       {url && <img src={url} alt={name} />}

@@ -8,7 +8,7 @@ export default class Youtube {
   }
 
   async channelImageURL(id) {
-    const result = await this.apiClient.channels({
+    const result = await this.apiClient.channel({
       params: { part: "snippet", id },
     });
     return result.data.items[0].snippet.thumbnails.default.url;
